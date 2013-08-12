@@ -1,4 +1,4 @@
 node_modules
-bootstrap
+src/bootstrap
 htdocs
 sync.sh
