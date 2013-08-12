@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html x-manifest="/manifest.appcache">
   <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Bootstrap -->
-      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-      <!-- Font Awesome -->
-      <link href="css/font-awesome.min.css" rel="stylesheet">
+      
+      <link href="css/style.min.css" rel="stylesheet" media="screen">
       <!--[if IE 7]>
-        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+        <link rel="stylesheet" href="css/style-ie7.min.css">
       <![endif]-->
-      <!-- custom css-->
-      <link href="css/style.css" rel="stylesheet" media="screen">
       <title>loïc moriamé - #geek #passioné #curieux</title>
       <!--
       Mon profil vous intéresset ? Vous désirez me contactez ?
@@ -23,6 +19,7 @@
       Be careful : brainfuck inside ;)
       -->
   </head>
+  
   <body>
     <div class="container">
 
@@ -46,9 +43,9 @@
       <hr>
       
       <h3>et sinon ?</h3>
-      <div class="row-fluid">
+      <div class="row">
 
-        <div class="span6">
+        <div class="col-lg-6">
           <p>
             Quand je ne fais pas de la veille chez moi, je vais assister aux conférences Lyon JS.
           </p>
@@ -61,7 +58,7 @@
           <p>
         </div>
 
-        <div class="span6">
+        <div class="col-lg-6">
           <p>Pour mes développements personnels, j'utilise le gestionnaire de sources Git</p>
           <p>Dernièrement, j'expérimente autour de Raspberry PI et j'ai enfin sauté le pas pour m'initier à Arduino</p>
           <p>
@@ -87,15 +84,15 @@
 
 
       <h3>et en dehors de l'informatique ?</h3>
-      <div class="row-fluid">
+      <div class="row">
 
-        <div class="span6">
+        <div class="col-lg-6">
           <p>Je suis licencié et passionné de tir à l'arc depuis 1994 <br />
           Mes week-ends sont régulièrement ponctués de concours</p>
           <p>A la rentrée 2013, je commencerai les épreuves pour passer entraîneur niveau 1 : si jamais vous voulez apprendre à tirer à l'arc, je pourrais vous enseigner les bases !</p>
         </div>
 
-        <div class="span6">
+        <div class="col-lg-6">
           <p>Mes deux rendez-vous annuels favoris à Lyon, sont : 
             <ul>
               <li><a href="http://www.hallucinations-collectives.com/" target="blank">le festival "Hallucinations Collectives"</a> : festival du film étrange et foutraque</li>
@@ -114,6 +111,6 @@
         <p>&copy; loïc moriamé 2013</p>
       </div>
 
-    </div> <!-- /container -->
+    </div>
   </body>
 </html>

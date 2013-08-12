@@ -1,3 +1,6 @@
+/*!
+ *  CSS for moriame.fr
+ */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic);
 body {
   color: rgb(51, 51, 51);
@@ -5,6 +8,10 @@ body {
   margin: 0 auto;
   max-width: 960px;
   padding: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 hr {
@@ -35,9 +42,11 @@ a:hover > i, a:focus > i {
   margin-top: 0;
 }
 
+
 .footer > p {
   margin: 0;
 }
+
 .ubuntuGrey {
   color: rgb(51, 51, 51);
 }
