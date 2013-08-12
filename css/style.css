@@ -11,6 +11,39 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Ubuntu', sans-serif;
 }
 
+hr {
+  border-bottom: 1px dotted rgb(174, 167, 159);
+  border-top: none;
+}
+
+a {
+  color: #08CC00;
+}
+
+a:hover, a:focus {
+  color: #058000;
+}
+
+a > i {
+  color: rgb(174, 167, 159);
+}
+a:hover > i, a:focus > i {
+  color: rgb(51, 51, 51);
+}
+
+.header {
+  margin: 0 0 50px 0;
+}
+
+.header > h1:first-child {
+  margin-top: 0;
+}
+
+
+.footer > p {
+  margin: 0;
+}
+
 .ubuntuGrey {
   color: rgb(51, 51, 51);
 }
