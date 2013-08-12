@@ -1,5 +1,5 @@
 # moriame.fr
 
-code source de ma page personnelle [moriame.fr](http://moriame.fr)
+code source de ma page personnelle [moriame.fr](http://moriame.fr)<br />
 
-page générée avec l'aide de [twitter bootstrap](http://getbootstrap.com)
+page réalisée à partir de [twitter bootstrap](http://getbootstrap.com)
