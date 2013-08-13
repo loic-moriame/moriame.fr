@@ -64,7 +64,8 @@ module.exports = function(grunt) {
           timestamp: true,
           hash: true,
           master: ['<%= config.html.dest %>index.html'],
-          cache: ['font/fontawesome-webfont.woff?v=3.2.1', 'font/fontawesome-webfont.ttf?v=3.2.1', 'font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1']
+          cache: ['font/fontawesome-webfont.woff?v=3.2.1', 'font/fontawesome-webfont.ttf?v=3.2.1', 'font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1'],
+          exclude: ['font/ubuntu']
         },
         src: [
           '*.html',
