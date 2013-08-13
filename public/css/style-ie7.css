@@ -7620,11 +7620,11 @@ hr {
 }
 
 a {
-  color: rgb(8, 204, 0);
+  color: rgb(19, 191, 0);
 }
 
 a:hover, a:focus {
-  color: rgb(26, 163, 24);
+  color: rgb(13, 127, 0);
 }
 
 a > i[class^="icon-"] {
@@ -7643,10 +7643,6 @@ a:hover > i[class^="icon-"], a:focus > i[class^="icon-"] {
 
 .header > h1:first-child {
   margin-top: 0;
-}
-
-.about {
-  
 }
 
 .footer > p {
