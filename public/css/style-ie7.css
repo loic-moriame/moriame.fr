@@ -7549,18 +7549,20 @@ hr {
 }
 
 a {
-  color: #08CC00;
+  color:rgb(17, 234, 4);
 }
 
 a:hover, a:focus {
-  color: #058000;
+  color: rgb(26, 163, 24);
 }
 
 a > i {
   color: rgb(174, 167, 159);
+  padding: 0 5px 0 0;
 }
 a:hover > i, a:focus > i {
   color: rgb(51, 51, 51);
+  text-decoration: none;
 }
 
 .header {
