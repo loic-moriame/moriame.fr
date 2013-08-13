@@ -6352,14 +6352,15 @@ a:hover, a:focus {
   color: rgb(26, 163, 24);
 }
 
-a > i {
+a > i[class^="icon"] {
   color: rgb(174, 167, 159);
   padding: 0 5px 0 0;
 }
-a:hover > i, a:focus > i {
+a:hover > i[class^="icon"], a:focus > i[class^="icon"] {
   color: rgb(51, 51, 51);
   text-decoration: none;
 }
+
 
 .header {
   margin: 0 0 50px 0;
