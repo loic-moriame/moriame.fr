@@ -70,7 +70,7 @@ module.exports = function(grunt) {
           '*.pdf',
           'js/*.min.js',
           'css/*min.css',
-          'font/*',
+          ['font/*.eot', 'font/*.svg', 'font/*.otf'],
         ],
         dest: 'public/manifest.appcache'
       }
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 
     watch: {
       files: ['<%= config.css.src.basic %>', '<%= config.css.src.ie7 %>', 'public/*.html', 'Gruntfile.js'],
-      tasks: ['concat','cssmin'],
+      tasks: ['concat','cssmin', 'manifest'],
       options: {
         livereload: true,
       },
