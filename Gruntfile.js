@@ -63,7 +63,9 @@ module.exports = function(grunt) {
           verbose: true,
           timestamp: true,
           hash: true,
-          master: ['<%= config.html.dest %>index.html']
+          master: ['<%= config.html.dest %>index.html'],
+          cache: ['font/fontawesome-webfont.woff?v=3.2.1', 'font/fontawesome-webfont.ttf?v=3.2.1', 'font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1'],
+          exclude: ['font/ubuntu']
         },
         src: [
           '*.html',
@@ -71,6 +73,7 @@ module.exports = function(grunt) {
           'js/*.min.js',
           'css/*min.css',
           'font/ubuntu/*',
+          'font/*'
         ],
         dest: 'public/manifest.appcache'
       }
