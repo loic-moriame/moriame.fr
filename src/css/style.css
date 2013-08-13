@@ -70,9 +70,8 @@
         url('../font/ubuntu/Ubuntu-BoldItalic.woff') format('woff'), 
         url('../font/ubuntu/Ubuntu-BoldItalic.ttf') format('truetype');
 }
-
 html {
-  color: rgb(51, 51, 51);
+  color: #333;
   font-family: 'Ubuntu', sans-serif;
 }
 body {
@@ -80,56 +79,47 @@ body {
   max-width: 960px;
   padding: 20px 0;
 }
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Ubuntu', sans-serif;
 }
-
 hr {
-  border-bottom: 1px dotted rgb(174, 167, 159);
+  border-bottom: 1px dotted #aea79f;
   border-top: none;
 }
-
 a {
-  color: rgb(19, 191, 0);
+  color: #13bf00;
 }
-
-a:hover, a:focus {
-  color: rgb(13, 127, 0);
+a:hover, 
+a:focus {
+  color: #0d7f00;
 }
-
 a > i[class^="icon-"] {
-  color: rgb(174, 167, 159);
+  color: #aea79f;
   padding: 0 5px 0 0;
 }
-a:hover > i[class^="icon-"], a:focus > i[class^="icon-"] {
-  color: rgb(51, 51, 51);
+a:hover > i[class^="icon-"], 
+a:focus > i[class^="icon-"] {
+  color: #333;
   text-decoration: none;
 }
-
-
 .header {
   margin: 0 0 50px 0;
 }
-
 .header > h1:first-child {
   margin-top: 0;
 }
-
 .footer > p {
   margin: 0;
 }
-
 .ubuntuGrey {
-  color: rgb(51, 51, 51);
+  color: #333;
 }
-
 .ubuntuOneGrey {
-  color: rgb(174, 167, 159);
+  color: #aea79f;
 }
 .canonicalAubergine {
-  color: rgb(119, 41, 83);
+  color: #772953;
 }
 .ubuntuOrange {
-  color: rgb(221, 72, 20);
+  color: #dd4814;
 }
