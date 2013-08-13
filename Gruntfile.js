@@ -77,8 +77,11 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      files: ['<%= config.css.src.basic %>', '<%= config.css.src.ie7 %>', 'public/*.hml'],
-      tasks: ['concat','cssmin', 'manifest']
+      files: ['<%= config.css.src.basic %>', '<%= config.css.src.ie7 %>', 'public/*.html', 'Gruntfile.js'],
+      tasks: ['concat','cssmin', 'manifest'],
+      options: {
+        livereload: true,
+      },
     }
   });
 
