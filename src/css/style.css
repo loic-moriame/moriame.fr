@@ -1,10 +1,81 @@
 /*!
  *  CSS for moriame.fr
  */
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic);
-body {
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src:  local('Ubuntu Light'), local('Ubuntu-Light'), 
+        url('../font/ubuntu/Ubuntu-Light.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src:  local('Ubuntu'), 
+        url('../font/ubuntu/Ubuntu-Regular.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src:  local('Ubuntu Medium'), 
+        local('Ubuntu-Medium'), url('../font/ubuntu/Ubuntu-Medium.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src:  local('Ubuntu Bold'), 
+        local('Ubuntu-Bold'), 
+        url('../font/ubuntu/Ubuntu-Bold.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src:  local('Ubuntu Light Italic'), 
+        local('Ubuntu-LightItalic'), 
+        url('../font/ubuntu/Ubuntu-LightItalic.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-LightItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src:  local('Ubuntu Italic'), 
+        local('Ubuntu-Italic'), 
+        url('../font/ubuntu/Ubuntu-Italic.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 500;
+  src:  local('Ubuntu Medium Italic'), 
+        local('Ubuntu-MediumItalic'), 
+        url('../font/ubuntu/Ubuntu-MediumItalic.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src:  local('Ubuntu Bold Italic'), 
+        local('Ubuntu-BoldItalic'), 
+        url('../font/ubuntu/Ubuntu-BoldItalic.woff') format('woff'), 
+        url('../font/ubuntu/Ubuntu-BoldItalic.ttf') format('truetype');
+}
+
+html {
   color: rgb(51, 51, 51);
   font-family: 'Ubuntu', sans-serif;
+}
+body {
   margin: 0 auto;
   max-width: 960px;
   padding: 20px 0;
@@ -20,7 +91,7 @@ hr {
 }
 
 a {
-  color:rgb(17, 234, 4);
+  color: rgb(8, 204, 0);
 }
 
 a:hover, a:focus {

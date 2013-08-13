@@ -70,7 +70,7 @@ module.exports = function(grunt) {
           '*.pdf',
           'js/*.min.js',
           'css/*min.css',
-          ['font/*.eot', 'font/*.svg', 'font/*.otf'],
+          'font/ubuntu/*',
         ],
         dest: 'public/manifest.appcache'
       }

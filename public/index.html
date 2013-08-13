@@ -4,9 +4,9 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-      <link href="css/style.min.css" rel="stylesheet" media="screen">
+      <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen">
       <!--[if IE 7]>
-        <link rel="stylesheet" href="css/style-ie7.min.css">
+        <link rel="stylesheet" href="css/style-ie7.min.css" type="text/css">
       <![endif]-->
       <title>loïc moriamé - #geek #passioné #curieux</title>
       <!--
@@ -64,7 +64,7 @@
             Vous pouvez consulter mes profils aux adresses suivantes : 
             <ul>
               <li>
-                <a href="http://fr.linkedin.com/in/moriame" target="blank"><i class="icon-linkedin"></i>LinkedIn</a>
+                <a href="http://fr.linkedin.com/in/moriame" target="blank"><i class="icon-linkedin"></i>linkedin</a>
               </li>
               <li>
                 <a href="https://github.com/moriame" target="blank"><i class="icon-github"></i>github</a>
@@ -111,22 +111,21 @@
       </div>
 
     </div>
-    
-    <!-- Piwik -->
-    <script type="text/javascript"> 
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.moria.me//";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
 
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.moria.me/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
     </script>
-    <noscript><p><img src="http://analytics.moria.me/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
     <!-- End Piwik Code -->
 
   </body>
